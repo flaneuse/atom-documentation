@@ -44,12 +44,12 @@ NOTE: all of these are intended to be commented out within your code. For instan
 ### Add section header
 `Cmd-shift-R`
 Inserts a break to organize sections
-`[]  ----------------------------------------------------------------------------------------------------`
+```[]  ----------------------------------------------------------------------------------------------------```
 
 ### Add minisection header
 `Cmd-option-R`
 Inserts a break to organize sections
-`--- *insert text* ---`
+```--- *insert text* ---```
 
 ## Optional parameters:
 **Author Name**: your name, for adding file documentation
