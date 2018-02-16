@@ -1,5 +1,8 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "atom-documentation:toggle"
+    "cmd-shift-r": "atom-documentation:section",
+    "alt-cmd-r": "atom-documentation:minisection",
+    "cmd-shift-x": "atom-documentation:filedoc",
+    "cmd-shift-e": "atom-documentation:funcdoc"
   }
 }

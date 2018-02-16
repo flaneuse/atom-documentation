@@ -2,13 +2,13 @@
   "name": "atom-documentation",
   "main": "./lib/atom-documentation",
   "version": "0.0.0",
-  "description": "Helper to insert structured metadata to organize comments in files. Based loosely on R package comments",
+  "description": "Helper to insert structured metadata to organize comments in files. Will insert skeleton template for Based loosely on (R)oxygen, R package description structure",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "atom-documentation:toggle"
+    "atom-workspace": ["atom-documentation:section", "atom-documentation:minisection", "atom-documentation:filedoc", "atom-documentation:funcdoc"]
   },
-  "repository": "https://github.com/atom/atom-documentation",
+  "repository": "https://github.com/flaneuse/atom-documentation",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

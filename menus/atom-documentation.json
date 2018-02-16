@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Toggle atom-documentation",
-        "command": "atom-documentation:toggle"
+        "command": "atom-documentation:section"
       }
     ]
   },
@@ -15,8 +15,20 @@
           "label": "atom-documentation",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "atom-documentation:toggle"
+              "label": "Add Section",
+              "command": "atom-documentation:section"
+            },
+            {
+              "label": "Add Mini Section",
+              "command": "atom-documentation:minisection"
+            },
+            {
+              "label": "Add File Documentation",
+              "command": "atom-documentation:filedoc"
+            },
+            {
+              "label": "Add Function Documentation",
+              "command": "atom-documentation:funcdoc"
             }
           ]
         }
